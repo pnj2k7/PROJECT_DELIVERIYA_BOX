@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "delivery-box-dc699",
+          "appId": "1:717661228604:android:5d8b742a3e974c332fbd39",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "delivery-box-dc699",
+          "configurations": {
+            "android": "1:717661228604:android:5d8b742a3e974c332fbd39",
+            "ios": "1:717661228604:ios:29849c077243a7172fbd39",
+            "macos": "1:717661228604:ios:a581015a10b4fd492fbd39",
+            "web": "1:717661228604:web:43aea3c60362bea82fbd39",
+            "windows": "1:717661228604:web:a0b5a6aece57de772fbd39"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

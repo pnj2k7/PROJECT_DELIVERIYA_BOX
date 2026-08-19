@@ -1,0 +1,38 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Secrets / local configuration
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+*.key
+secrets/
+config.local.h
+firebase-debug.log
+
+# Flutter / Dart
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+coverage/
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Generated Firebase / hosting state
+.firebase/
+
+# Arduino IDE
+*.bin
+*.elf

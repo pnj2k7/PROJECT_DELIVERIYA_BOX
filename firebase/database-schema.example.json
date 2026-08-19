@@ -1,0 +1,38 @@
+{
+  "boxes": {
+    "{boxId}": {
+      "meta": {
+        "ownerUid": "{senderUid}",
+        "boxName": "Example Box",
+        "description": "Example description",
+        "contents": "Example cargo"
+      },
+      "sensors": {
+        "temperature": 25.0,
+        "humidity": 60.0,
+        "doorStatus": "Closed",
+        "accelerationX": 0.0,
+        "accelerationY": 0.0,
+        "accelerationZ": 0.0
+      },
+      "control": {
+        "door": false,
+        "fan": false,
+        "fanAuto": false,
+        "buzzer": false
+      },
+      "device": {
+        "status": "online",
+        "lastSeen": 0
+      },
+      "location": {
+        "latitude": 0.0,
+        "longitude": 0.0
+      },
+      "sender": {},
+      "customer": {},
+      "activity": {},
+      "sensorHistory": {}
+    }
+  }
+}
