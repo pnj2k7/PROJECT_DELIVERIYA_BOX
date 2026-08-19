@@ -8,8 +8,8 @@
 | GPS receiver | 1 | Live location tracking |
 | SG90 micro servo | 1 | Door-lock actuator |
 | 1-channel relay | 1 | Cooling-fan switching |
-| Active piezo buzzer | 1 | Reserved for future alerting |
 | 12V DC cooling fan | 1 | Cargo ventilation |
+| Magnetic Reed door sensor | 1 | Detect box enclosure |
 
 ## GPIO allocation
 
