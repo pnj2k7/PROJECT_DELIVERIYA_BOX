@@ -20,5 +20,5 @@
 | GPS RX / TX | D7 / D6 | SoftwareSerial UART |
 | Servo signal | D5 | PWM |
 | Relay (fan) | D8 | Digital output |
-| Reed Door Sensor | D3 | Digital input |
+| Reed Door Sensor | D0 | Digital input |
 
